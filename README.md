@@ -1,2 +1,11 @@
-# klencod-flutter--_-_-_1
-Project created by KLENCOD IDE
+# طريق الخلود (Pixel Art RPG · محاكاة حياة + زراعة روحية)
+
+لعبة Offline بـ Flutter/Dart بلا خوادم. الحفظ عبر `shared_preferences`. كل الرسومات (Pixel Art) مرسومة برمجياً في `lib/core/`.
+
+- `lib/game/game.dart` منطق اللعبة: الزمن الشهري، العائلة، المهن، الزراعة، القتال التلقائي، مرآة الأقدار، الحفظ.
+- `lib/data/` المحتوى: عناصر، مناطق ومواقع، مراحل الزراعة، أحداث بخيارات.
+- `lib/ui/` الشاشات.
+
+الأنظمة: حملة معارك بمراحل، فريق، حيوانات أليفة، مهارات، فرن صقل للحبوب، حداد للأسلحة، أراضي الفانين، مكافأة يومية.
+
+التشغيل: `flutter pub get && flutter analyze && flutter build apk --release`
